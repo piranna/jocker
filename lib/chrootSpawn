@@ -1,0 +1,22 @@
+#! /usr/bin/env node
+
+/**
+ * Exec a command on a `chroot`ed directory with un-priviledged permissions
+ */
+
+var spawn = require('child_process').spawn
+
+var chroot = require('posix').chroot
+
+
+chroot('.')
+
+spawn(process.argv[4], process.argv.slice(5),
+{
+  stdio: 'inherit',
+  detached: true,
+  uid: parseInt(process.argv[2]),
+  gid: parseInt(process.argv[3])
+})
+.on('error', console.trace.bind(console))
+.unref()

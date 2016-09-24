@@ -1,0 +1,43 @@
+{
+  "name": "jocker",
+  "version": "0.0.0",
+  "description": "Docker written in Javascript",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/jocker.git"
+  },
+  "keywords": [
+    "Docker",
+    "LXC",
+    "NodeOS",
+    "single",
+    "process"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piranna/jocker/issues"
+  },
+  "homepage": "https://github.com/piranna/jocker#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "mkdirp": "^0.5.1",
+    "nodeos-mount-utils": "^0.2.0",
+    "posix": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "errno-codes": "^1.0.2",
+    "mocha": "^3.0.2",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  }
+}
