@@ -27,17 +27,17 @@
   },
   "homepage": "https://github.com/piranna/jocker#readme",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.5.0",
     "mkdirp": "^0.5.1",
     "nodeos-mount-utils": "^0.2.0",
     "posix": "^4.1.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.2",
     "errno-codes": "^1.0.2",
-    "mocha": "^3.2.0",
-    "proxyquire": "^1.7.11",
-    "sinon": "^1.17.7",
-    "sinon-chai": "^2.8.0"
+    "mocha": "^3.4.2",
+    "proxyquire": "^1.8.0",
+    "sinon": "^2.3.5",
+    "sinon-chai": "^2.11.0"
   }
 }
