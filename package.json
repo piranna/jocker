@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/piranna/jocker#readme",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "mkdirp": "^0.5.1",
     "nodeos-mount-utils": "^0.2.0",
     "posix": "^4.1.1"
